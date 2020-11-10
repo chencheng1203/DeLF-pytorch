@@ -51,3 +51,10 @@ For inference details, A jupyter-notebook was prepared, you can go to <kbd>scrip
 cd match
 python match.py
 ```
+
+### DeLF keypoints Visualize
+![image](https://github.com/chencheng1203/DeLF-pytorch/blob/master/results/attention_visualize.png)
+
+### Image Retrival Results
+![image](https://github.com/chencheng1203/DeLF-pytorch/blob/master/results/retrival_results.png)
+note: because only 2 guangzhou tower index images were saved, but get top 3 retrival resluts, the last one obvious wrong.
