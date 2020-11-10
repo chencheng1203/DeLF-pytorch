@@ -46,7 +46,8 @@ python store_delf_feature.py
 ```
 
 ### image retrival and keypoints match
-For inference details, A jupyter-notebook was prepared, you can go to <kbd>scripts/match.ipynb</kbd> for detailed matching process, and in the folder <kbd>scripts</kdb>, delf keypoints feature also has shown.
+For inference details, A jupyter-notebook was prepared, you can go to <kbd>scripts/match.ipynb</kbd>. 
+for detailed matching process, and in the folder <kbd>scripts</kdb>, delf keypoints feature also has shown.
 ```
 cd match
 python match.py
