@@ -46,7 +46,7 @@ python store_delf_feature.py
 ```
 
 ### image retrival and keypoints match
-For inference details, A jupyter-notebook was prepared, you can go to <kbd>scripts/match.ipynb</kbd> for detailed matching process. In the file <kbd>scripts/delf_feature_visulization.ipynb</kdb> delf keypoints feature also has shown.
+For inference details, A jupyter-notebook was prepared, you can go to <kbd>scripts/match.ipynb</kbd> for detailed matching process. In the file <kbd>scripts/delf_feature_visulization.ipynb</kbd> delf keypoints feature also has shown.
 ```
 cd match
 python match.py
@@ -58,3 +58,9 @@ python match.py
 ### Image Retrival Results
 ![image](https://github.com/chencheng1203/DeLF-pytorch/blob/master/results/retrival_results.png)
 note: because only 2 guangzhou tower index images were saved, but get top 3 retrival resluts, the last one obvious wrong.
+
+### checkpoints download
+Because Google Landmark datasets are too large, I random selected 1w landmark classes for finetuning and train keypints. Here are model ckpt and pca params, index images delf infomation.[link](https://pan.baidu.com/s/1KN0HbFSogyDUYBiXb-TWfw)(passwd:bupt)
+```
+tar -zxvf repository.tar.gz
+```
